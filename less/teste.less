@@ -1,0 +1,11 @@
+.arredonda-borda(@valor){
+	border-radius:@valor;
+	border:solid 2px;
+}
+
+@cor:red;
+
+p {
+	color:@cor;
+	.arredonda-borda(15px);
+}

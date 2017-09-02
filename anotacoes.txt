@@ -1,0 +1,47 @@
+http://dabblet.com/
+
+h1 {
+	margin:60px;
+	padding:50px;
+	display:inline-block;
+	border: solid 3px;
+	border-radius: 15px 30px 70px 5px;
+	text-shadow: 10px 10px red;
+	box-shadow: 5px 5px blue;
+	background: rgba(255,100,50,0.2);
+}
+
+<h1>Calopsita</h1>
+
+
+
+
+Graceful degradation
+
+Conceito que diz para usar o que tem de mais moderno.
+
+
+Progressive enhancement 
+
+Conceito que diz para usar o que temos certeza que vai funcionar em todos os browsers
+O contra é que aplicacoes SPA(100% Javascript) não tem como fazer progressive enhancement
+modernizer - detecta recursos
+
+
+https://pastebin.com/Darra41n
+
+goo.gl/uFKnUW
+
+
+usar nos novos projetos:
+
+usa o width toda do pai
+ps.: colocar prefixo para cada navegador para funcionar, exemplo moz-box-sizing:bordder-box;	
+*{
+	box-sizing:bordder-box;	
+}
+
+
+
+elemento = %
+medida relativa = em  
